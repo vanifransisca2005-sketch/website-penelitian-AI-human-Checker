@@ -1,0 +1,28 @@
+{
+  "model_name": "bert-base-uncased",
+  "architecture": "Hierarchical BERT + unidirectional LSTM",
+  "label_mapping": {
+    "0": "Human",
+    "1": "AI"
+  },
+  "text_mode": "clean",
+  "chunk_length": 256,
+  "chunk_stride": 192,
+  "max_chunks": 4,
+  "chunk_pooling": "mean",
+  "lstm_hidden_size": 128,
+  "lstm_num_layers": 1,
+  "bidirectional": false,
+  "dropout": 0.4,
+  "balance_strategy": "class_weight",
+  "best_epoch": 3,
+  "best_validation_f1": 0.9948590675412161,
+  "best_validation_loss": 0.019391719906424732,
+  "temperature": 1.3735402822494507,
+  "threshold_human": 0.5399999999999999,
+  "threshold_ai": 0.5599999999999999,
+  "target_ai_fpr": 0.01,
+  "target_human_fnr": 0.01,
+  "near_duplicate_grouping": false,
+  "seed": 42
+}

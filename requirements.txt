@@ -1,0 +1,11 @@
+numpy>=2.0,<3
+pandas>=2.2
+streamlit>=1.40,<2
+torch>=2.6
+transformers>=4.44,<5
+scikit-learn>=1.6
+openpyxl>=3.1
+datasketch>=1.6,<2
+spacy>=3.7,<4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+tqdm>=4.66
